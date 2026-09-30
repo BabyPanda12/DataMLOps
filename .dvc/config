@@ -1,0 +1,8 @@
+[core]
+    remote = rustfs
+['remote "rustfs"']
+    url = s3://dvc-art
+    endpointurl = http://localhost:9000/
+    access_key_id = rustfsadmin
+    secret_access_key = rustfsadmin
+    use_ssl = False
