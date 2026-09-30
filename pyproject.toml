@@ -1,0 +1,19 @@
+[project]
+name = "assignment2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ivana Stojanova", email = "558296@student.saxion.nl" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "dvc[s3]>=3.67.1",
+]
+
+[project.scripts]
+assignment2 = "assignment2:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
